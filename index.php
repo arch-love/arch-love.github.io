@@ -1,3 +1,7 @@
+<?php
+require_once("./app/includes/config.php");
+require_once("./app/core/core_showsettings.php");
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -11,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- SITE META -->
-    <title>شایا | قالب حرفه ای فروش فایل</title>
+    <title><?php echo $show_settings['gt_name']; ?></title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="keywords" content="">
@@ -286,8 +290,8 @@
                                         <div class="col-sm-2 col-xs-12 text-center">
                                             <ul>
                                                 <li><a href="index.html#" class="btn btn-primary btn-block">دنبال کردن</a></li>
-                                                <li><a href="public-profile.html" title="">180 دنبال کننده</a></li>
-                                                <li><a href="public-profile.html" title="">48 دنبال شونده</a></li>
+                                                <li><a href="public-profile.html" title="">0 دنبال کننده</a></li>
+                                                <li><a href="public-profile.html" title="">0 دنبال شونده</a></li>
                                             </ul>
                                         </div>
                                     </div><!-- end form-group -->   
@@ -306,8 +310,7 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="media cen-xs">
                             <p>
-                                &copy; تمامی حقوق نزد صاحب وب سایت محفوظ می باشد !<br>
-                                طراحی و کدنویسی با
+                                &copy; تمامی حقوق نزد گروه GT محفوظ می باشد !<br>
                             </p>
                         </div>
                     </div>
